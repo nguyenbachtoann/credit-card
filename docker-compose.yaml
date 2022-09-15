@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: credit-card
+    image: nguyenbachtoan/creditcard:f9400f10
+    tty: true
+    ports:
+      - "1212:82"
